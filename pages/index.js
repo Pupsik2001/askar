@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+import i18n from '../components/i18n';
 import NextLink from 'next/link'
 import { useState } from 'react'
 import {
@@ -23,7 +25,7 @@ import axios from 'axios'
 
 const Page = () => {
 
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [trackingNumber, setTrackingNumber] = useState('');
     const [trackingStatus, setTrackingStatus] = useState('');
     const [trackingInfo, setTrackingInfo] = useState([]);
