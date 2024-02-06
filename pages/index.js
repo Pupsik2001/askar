@@ -23,7 +23,7 @@ import axios from 'axios'
 
 const Page = () => {
 
-    const { t, i18n } = useTranslation();
+    const { t} = useTranslation();
     const [trackingNumber, setTrackingNumber] = useState('');
     const [trackingStatus, setTrackingStatus] = useState('');
     const [trackingInfo, setTrackingInfo] = useState([]);
