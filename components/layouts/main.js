@@ -8,7 +8,7 @@ const Main = ({ children, router}) => {
         <Box as="main" pb={8}>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>Kosmos express</title>
+                <title>Kosmos express cargo</title>
             </Head>
 
             <Navbar path={router.asPath} />

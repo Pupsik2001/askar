@@ -10,7 +10,7 @@ import {
     Image,
     useColorModeValue,
     Text,
-    video
+    // video
 } from "@chakra-ui/react"
 import { useTranslation } from 'react-i18next';
 import { IoLogoTiktok, IoLogoInstagram, IoLogoWhatsapp } from 'react-icons/io5'
@@ -54,10 +54,10 @@ const Page = () => {
     }
     };
 
-    const handleLanguageToggle = () => {
-        const newLanguage = i18n.language === 'ru' ? 'kg' : 'ru';
-        i18n.changeLanguage(newLanguage);
-    };
+    // const handleLanguageToggle = () => {
+    //     const newLanguage = i18n.language === 'ru' ? 'kg' : 'ru';
+    //     i18n.changeLanguage(newLanguage);
+    // };
 
     return (
         <Container>
