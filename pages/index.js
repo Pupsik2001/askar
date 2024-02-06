@@ -54,11 +54,6 @@ const Page = () => {
     }
     };
 
-    // const handleLanguageToggle = () => {
-    //     const newLanguage = i18n.language === 'ru' ? 'kg' : 'ru';
-    //     i18n.changeLanguage(newLanguage);
-    // };
-
     return (
         <Container>
 
