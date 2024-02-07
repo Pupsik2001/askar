@@ -75,7 +75,7 @@ const Page = () => {
                     alt: "delivery"
                 }}
                 >
-                <source src="/main.mp4" type="video/mp4" />
+                <source src="/images/main.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
                 </video>
             </Box>
@@ -156,6 +156,7 @@ const Page = () => {
                   justifyContent={{ base: "center", md: "space-between" }}
                   alignItems={{ base: "center", md: "center" }}
                   direction={{ base: "column", md: "row" }}
+                  spacing={{ base: 4, md: 0 }}
                 >
                     <Box mx={10}>
                         <Box align="center" my={4}>
@@ -186,7 +187,7 @@ const Page = () => {
                             </Button>
                         </Box>
                     </Box>
-                    <Box mx={6  }>
+                    <Box mx={6}>
                         <Box align="center" my={4}>
                             <Button
                                 as={NextLink}
