@@ -64,7 +64,6 @@ const Page = () => {
                 autoPlay
                 muted
                 playsInline
-                controls
                 loop
                 style={{
                     position: 'absolute',
@@ -109,7 +108,8 @@ const Page = () => {
                       display="inline-block"
                       borderRadius="full"
                       src="/images/askar.jpg"
-                      alt="Profile Image" />
+                      alt="Profile Image"
+                    />
                 </Box>
             </Box>
             <Section delay={0.1}>
@@ -127,6 +127,8 @@ const Page = () => {
                     value={trackingNumber}
                     onChange={(e) => setTrackingNumber(e.target.value)}
                     _focus={{ borderColor: "darkorange"}}
+                    borderColor="black"
+                    borderWidth={2}
                 />
                 <Text>{trackingStatus}</Text>
                 {trackingInfo.length > 0 && (
