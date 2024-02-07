@@ -152,7 +152,11 @@ const Page = () => {
                     {t('our_social_network')}
                 </Heading>
                 <Box my={5} />
-                <Flex justifyContent="space-between" alignItems="center">
+                <Flex
+                  justifyContent={{ base: "center", md: "space-between" }}
+                  alignItems={{ base: "center", md: "center" }}
+                  direction={{ base: "column", md: "row" }}
+                >
                     <Box mx={10}>
                         <Box align="center" my={4}>
                             <Button
@@ -182,7 +186,7 @@ const Page = () => {
                             </Button>
                         </Box>
                     </Box>
-                    <Box mx={10}>
+                    <Box mx={6  }>
                         <Box align="center" my={4}>
                             <Button
                                 as={NextLink}
