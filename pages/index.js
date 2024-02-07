@@ -59,28 +59,19 @@ const Page = () => {
     return (
         <Container>
 
-            <Box position="relative" h="0" pt="56.25%" borderRadius="lg" overflow="hidden">
-                <video
-                autoPlay
-                muted
-                playsInline
-                loop
-                style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    borderRadius: 'lg',
-                    alt: "delivery"
-                }}
-                >
-                <source src="/images/main.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-                </video>
+            <Box position="relative" h="auto" pt="3" borderRadius="lg" overflow="hidden">
+                <Image
+                    borderWidth={2}
+                    borderStyle="solid"
+                    maxWidth="100%"
+                    height="auto"
+                    borderRadius="lg"
+                    src="/images/main.jpg"
+                    alt="Delivery Image"
+                />
             </Box>
-            <Box my={3} />
+
+            <Box my={2} />
 
             <Box
                 borderRadius="lg"
