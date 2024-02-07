@@ -63,6 +63,8 @@ const Page = () => {
                 <video
                 autoPlay
                 muted
+                playsInline
+                controls
                 loop
                 style={{
                     position: 'absolute',
@@ -124,7 +126,7 @@ const Page = () => {
                     placeholder={t('number_track')}
                     value={trackingNumber}
                     onChange={(e) => setTrackingNumber(e.target.value)}
-                    _focus={{ borderColor: "orange"}}
+                    _focus={{ borderColor: "darkorange"}}
                 />
                 <Text>{trackingStatus}</Text>
                 {trackingInfo.length > 0 && (
